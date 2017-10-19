@@ -38,7 +38,15 @@ public class App {
 					
 					//Print element data and the current date
 					if (element.children().size() == 4) {
-						System.out.println(element.text() + " " + date);
+						StringBuilder output = new StringBuilder();
+						for(Element chieldElement: element.children())
+						{
+							output.append(chieldElement.text()).append(";");
+						}
+						
+						output.append(date.toString());
+						
+						System.out.println(output);
 
 					}
 
