@@ -1,6 +1,11 @@
 # QuotesTesouroDireto
 
-Aplicação para obter os valores dos títulos do Tesouro Direto automaticamente através do KMyMoney.
+Aplicação para obter os valores dos títulos do Tesouro Direto automaticamente através do KMyMoney. 
+Use as configurações de exemplo para o KMyMoney no Linux da seção abaixo.
+
+No Linux não foi possível executar a aplicação diretamente. Para contornar esse problema, crie um script TesouroDireto.sh abaixo.
+
+Substitua o [...] pelo caminho onde se encontram os respectivos arquivos.
 
 ## Configuração
 
