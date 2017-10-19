@@ -15,7 +15,7 @@ Aplicação para obter os valores dos títulos do Tesouro Direto automaticamente
 
 ## Exemplo TesouroDireto.sh
 
-```
+```bash
 #!/bin/bash
 java -jar /home/[...]/TesouroDiretoQuotes-0.0.1-SNAPSHOT.jar $*
 ```
